@@ -27,7 +27,7 @@ The network learns to add two numbers by training on thousands of random example
 3. **Forward Pass**: Computes predictions through the network
 4. **Error Calculation**: Compares predictions with actual sums
 5. **Backpropagation**: Updates weights and biases using gradient descent
-6. **Iteration**: Repeats for 10,000 epochs
+6. **Iteration**: Repeats for 10,000,000 epochs
 
 ### Network Architecture
 ```
@@ -53,7 +53,7 @@ g++ -std=c++11 -o addition addition.cpp
 ## Output
 
 The program will:
-1. Train the neural network for 10,000 epochs
+1. Train the neural network for 10,000,000 epochs
 2. Save the trained model to `trained_network.txt`
 3. Load the model and test it with various input pairs
 4. Display predictions vs expected results
